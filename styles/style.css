@@ -1,0 +1,174 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.format ul {
+    list-style-type: none;
+}
+
+.format li {
+    display: inline-block;
+}
+
+.format a {
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    font-family: arial, sans-sarif;
+    font-size: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.nav ul {
+    padding-left: 0;
+}
+
+.nav {
+    margin-top: -10px;
+    padding: 0 0 0 0;
+    overflow: hidden;  
+}
+
+.nav2 {
+    margin-top: -36.7px;
+    float: right;
+}
+
+#wrapper {
+    width: 1241px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 130px;
+}
+
+#wrapper #logo {
+    margin: 0 -100%;
+    vertical-align: middle;
+}
+
+.sbox {
+    border-radius: 24px;
+    display: inline-block;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    width: 582px;
+    text-align: center;
+}
+
+.sbox input {
+    width: 515px;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    border: 0;
+}
+
+#lupa {
+    max-width: 15px;
+    max-height: 15px;
+    margin: 0 0 0 0;
+}
+
+
+.search-box:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.centered {
+    padding-top: 5px;
+    margin-top: 21px;
+    height: 90px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button {
+    display: inline-block;
+    margin: 0 30px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 3px;
+    color: gray;
+    font-size: 14px;
+    
+}
+
+
+
+.nav4 {
+  float: right;
+  position: 0 0 0 -25px;
+}
+
+#footer {
+    display: inline;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    float: left;
+}
+
+.nav3 {
+    posotion; 0 0 0 0;
+}
+
+#bottom-menu {
+    color: rgba(0,0,0,.54);
+    background-color: lightgray;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+
+#bottom-menu-left {
+    margin-left: -35px;
+    font-size: 13px;
+    float: left;
+    border-top: 1px solid #e4e4e4;
+}
+
+#bottom-menu-right {
+    font-size: 13px;
+    float: right;
+}
+
+#bottom-menu {
+    padding-top: -20px;
+}
+
+.nav-element {
+    display: inline;
+    margin: 0 13px 0 0;
+}
+
+.footer-element-left {
+    display: inline;
+    margin: 0 0 0 25px;
+}
+
+.footer-element-right {
+    display: inline;
+    margin: 0 25px 0 0;
+}
+
+.footer-element-left:hover, .footer-element-right:hover {
+    text-decoration: underline;
+}
